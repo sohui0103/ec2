@@ -133,4 +133,8 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
+AWS_ACCESS_KEY_ID = 'AKIAZ4OGVNEN7KFX3VDY'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'kimsohui'
+AWS_S3_SIGNATURE_VERSION = 's3v4'
+AWS_S3_REGION_NAME = 'ap-northeast-2'
